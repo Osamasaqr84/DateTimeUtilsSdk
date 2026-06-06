@@ -88,14 +88,3 @@ fun Date.toLocalDate(
         .toLocalDate()
 }
 
-fun Date.toReceiptDate(): String =
-    format(DateFormats.RECEIPT_DATE)
-
-fun Date.toReceiptTime(): String =
-    format(DateFormats.RECEIPT_TIME)
-
-fun Date.toIsoTransmissionDateTime(): String =
-    format(DateFormats.ISO8583_TRANSMISSION_DATE_TIME)
-
-fun Date.toJulianDate(): String =
-    format(DateFormats.JULIAN_DATE)
